@@ -21,5 +21,6 @@ variable "default_tags" {
   type        = map(any)
   default = {
     "Name" = "Web Application Node"
+    "Department" = "Development"
   }
 }
