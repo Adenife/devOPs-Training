@@ -24,3 +24,15 @@ variable "default_tags" {
     "Department" = "Development"
   }
 }
+
+variable "bucket" {
+  description = "This variable is to manage s3 bucket name"
+  type        = string
+  default = "nifemi-trainings"
+}
+
+variable "key" {
+  description = "This variable is to manage bucket key"
+  type        = string
+  default    = "dev/terraform.tfstate"
+}
